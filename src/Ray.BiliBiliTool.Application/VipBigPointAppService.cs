@@ -139,7 +139,7 @@ public class VipBigPointAppService : AppService, IVipBigPointAppService
         //日常任务
 
         //浏览追番频道页10秒
-        taskInfo = await ViewAnimate(taskInfo);
+        //taskInfo = await ViewAnimate(taskInfo);
 
         //浏览会员购页面10秒
         taskInfo = await ViewVipMall(taskInfo);
