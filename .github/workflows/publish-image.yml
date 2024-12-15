@@ -1,4 +1,4 @@
-# ·¢²¼¾µÏñ
+# Â·Â¢Â²Â¼Â¾ÂµÃÃ±
 name: Publish image
 
 on:
@@ -18,7 +18,7 @@ env:
   GHCR_USERNAME: ${{ github.repository_owner }}
   GHCR_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
   DOCKER_IMG_NAME: "zai7lou/bilibili_tool_pro"
-  GHC_IMG_NAME: "ghcr.io/raywangqvq/bilibili_tool_pro"
+  GHC_IMG_NAME: "ghcr.io/jhqwqmc/bilibili_tool_pro"
 
 jobs:
   PublishImage:
